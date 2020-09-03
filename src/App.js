@@ -1,12 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import HookCounter from "./components/HookCounter";
+import Finished from "./components/Finished";
 
 function App() {
   return (
     <div className="App">
-      <HookCounter />
+      <Finished />
     </div>
   );
 }
